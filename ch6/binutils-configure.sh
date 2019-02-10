@@ -1,0 +1,10 @@
+#!/bin/bash
+
+../configure --prefix=/usr \
+             --enable-gold \
+             --enable-ld=default \
+             --enable-plugins \
+             --enable-shared \
+             --disable-werror \
+             --enable-64-bit-bfd \
+             --with-system-zlib
