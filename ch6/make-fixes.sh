@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sed -i '211,217 d; 219,229 d; 232 d' glob/glob.c
