@@ -1,3 +1,3 @@
 #!/bin/bash
 
-PAGE=<paper_size> ./configure --prefix=/usr
+PAGE=A4 ./configure --prefix=/usr
